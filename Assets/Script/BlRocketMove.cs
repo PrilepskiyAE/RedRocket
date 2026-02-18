@@ -26,8 +26,6 @@ public class BlRocketMove : MonoBehaviour
     void FixedUpdate()
     {
         rb.AddForce(transform.forward * constantForceValue, ForceMode.VelocityChange);
-        Vector3 currentRotation = transform.eulerAngles;
-        transform.eulerAngles = new Vector3(currentRotation.x, currentRotation.y, 0f);
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
             rb.AddForce(transform.forward * forceValue, ForceMode.VelocityChange);
 
