@@ -2,15 +2,14 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+   void OnTriggerEnter(Collider other)
+{
+    Bomb bomb = other.gameObject.GetComponent<Bomb>();
+        if (bomb)
+        {   
+            bomb.DJe();
+            Destroy(gameObject);
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+}
 }
