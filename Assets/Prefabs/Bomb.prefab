@@ -156,4 +156,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94167a60eb2250170bfe144dc7149f2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bomb
-  dueEffectPrefab: {fileID: 0}
+  dueEffectPrefab: {fileID: 1602197966606650, guid: a5aa433121436ef4899e4f2254a1d4d3, type: 3}
