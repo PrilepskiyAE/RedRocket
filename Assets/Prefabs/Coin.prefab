@@ -69,6 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ff658651cd77a38b26b436839d1ff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
+  dueEffectPrefab: {fileID: 1066009319504892, guid: 9a3edab34f4a90d4dbbd9b576245b3f9, type: 3}
 --- !u!1 &9133367810335597451
 GameObject:
   m_ObjectHideFlags: 0
